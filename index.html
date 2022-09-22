@@ -26,13 +26,10 @@
     />
     <title>resume</title>
   </head>
+  <!--Main-->
   <body>
-    <!--Main-->
-
-    <div class="main">
-      <!--Main content-->
-      <div class="main-content">
-        <!--About user-->
+    <main class="main">
+      <header>
         <div class="about">
           <h2 class="about-position">Front-End Developer</h2>
           <h1 class="about-name">Denys Bahniuk</h1>
@@ -43,7 +40,8 @@
             accumsan lacus vel facilisis.
           </p>
         </div>
-        <!---Projects-->
+      </header>
+      <section class="projects">
         <div class="projects">
           <h3 class="title">Projects</h3>
           <ol class="projects-list">
@@ -72,7 +70,8 @@
             </li>
           </ol>
         </div>
-        <!--Work-->
+      </section>
+      <section class="expirience">
         <div class="work">
           <h3 class="title">Work expirience</h3>
           <!--Company1-->
@@ -127,7 +126,8 @@
             </ul>
           </div>
         </div>
-        <!--Education-->
+      </section>
+      <section class="education">
         <div class="education">
           <h3 class="title">Education</h3>
           <h4 class="educ-work">
@@ -140,71 +140,65 @@
             September 2009 - June 2014 <span class="line">|</span> Country
           </p>
         </div>
-      </div>
+      </section>
+    </main>
 
-      <!--Sidebar-->
-      <aside class="sidebar">
-        <img class="photo" width="290" src="./img/res1.jpeg" alt="User photo" />
+    <!--Sidebar-->
+    <aside class="sidebar">
+      <img class="photo" width="290" src="./img/res1.jpeg" alt="User photo" />
+      <!--Contacts-->
 
-        <!--Contacts-->
-        <div class="contacts">
-          <h3 class="sidebar-tytel">Contacts</h3>
-          <div>
-            <ul>
-              <li>
-                <img class="img1" src="./img/telephone.png" alt="" />
-                <a href=" tel:+380977566320" class="contact-link"
-                  >+380977566320
-                </a>
-              </li>
-              <li>
-                <img class="img2" src="./img/email2.png" alt="" />
-                <a href="mailto:densua24@gmail.com" class="contact-link"
-                  >densua24@gmail.com</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-
+      <section class="contacts">
+        <h3 class="sidebar-tytel">Contacts</h3>
+        <ul class="contacts__list">
+          <li>
+            <img class="img1" src="./img/telephone.png" alt="" />
+            <a href=" tel:+380977566320" class="contact-link">+380977566320 </a>
+          </li>
+          <li>
+            <img class="img2" src="./img/email2.png" alt="" />
+            <a href="mailto:densua24@gmail.com" class="contact-link"
+              >densua24@gmail.com</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="tech">
         <!--Tech skills-->
-        <div class="tech">
-          <h3 class="tech-skills">Tech skills</h3>
-          <ul class="tech-skills-list">
-            <li class="tech-skills-item">
-              <span class="tech-skills-text">HTML5 </span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-text"> CSS3</span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-text"> GIT</span>
-            </li>
-            <li class="tech-skills-item">
-              <span class="tech-skills-text"> JavaScript</span>
-            </li>
+        <h3 class="tech-skills">Tech skills</h3>
+        <ul class="tech-skills-list">
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">HTML5 </span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text"> CSS3</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text"> GIT</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text"> JavaScript</span>
+          </li>
 
-            <!-- <li class="tech-skills-item"> <span class="tech-skills-text"> WebPack</span> </li> -->
-            <!-- <li class="tech-skills-item"> <span class="tech-skills-text"> React.js</span> </li> -->
-            <!-- <li class="tech-skills-item"> <span class="tech-skills-text"> Node.js</span> </li>     -->
-          </ul>
-        </div>
-
+          <!-- <li class="tech-skills-item"> <span class="tech-skills-text"> WebPack</span> </li> -->
+          <!-- <li class="tech-skills-item"> <span class="tech-skills-text"> React.js</span> </li> -->
+          <!-- <li class="tech-skills-item"> <span class="tech-skills-text"> Node.js</span> </li>     -->
+        </ul>
+      </section>
+      <section class="soft">
         <!--Soft skills-->
-        <div class="soft">
-          <h3 class="soft-skills">Soft skills</h3>
-          <ul class="soft-skills-list">
-            <li class="soft-skills-item">
-              <span class="soft-skills-text">Scrum</span>
-            </li>
-            <!-- <li class="soft-skills-item"> <span class="soft-skills-text">Agile</span></li> -->
-            <!-- <li class="soft-skills-item"> <span class="soft-skills-text">GTD</span></li> -->
-            <li class="soft-skills-item">
-              <span class="soft-skills-text">Teamwork</span>
-            </li>
-          </ul>
-        </div>
-      </aside>
-    </div>
+        <h3 class="soft-skills">Soft skills</h3>
+        <ul class="soft-skills-list">
+          <li class="soft-skills-item">
+            <span class="soft-skills-text">Scrum</span>
+          </li>
+          <!-- <li class="soft-skills-item"> <span class="soft-skills-text">Agile</span></li> -->
+          <!-- <li class="soft-skills-item"> <span class="soft-skills-text">GTD</span></li> -->
+          <li class="soft-skills-item">
+            <span class="soft-skills-text">Teamwork</span>
+          </li>
+        </ul>
+      </section>
+    </aside>
   </body>
 </html>
