@@ -11,7 +11,8 @@ h2,
 h3,
 h4,
 h5,
-ul {
+ul,
+p {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -62,7 +63,6 @@ ul {
   line-height: 24px;
   color: #595959;
   width: 400px;
-  margin-bottom: 40px;
 }
 /* project styles */
 .title {
@@ -134,22 +134,25 @@ ul {
   color: #a8a8a8;
   margin-bottom: 10px;
 }
-
-.line {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  color: #000000;
+.contacts_item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
+
 .work-list {
   padding: 0;
   margin-left: 30px;
   width: 525px;
 }
-
+.expirience {
+  margin-bottom: 45px;
+}
+.work_first {
+  margin-bottom: 30px;
+}
 .education {
-  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 .educ-work {
@@ -168,7 +171,7 @@ ul {
 
 /* sidebar */
 .sidebar {
-  background-color: #1e2939;
+  background-color: #484f58;
   /* padding-top: 40px; */
   width: 370px;
   display: flex;
@@ -183,13 +186,11 @@ ul {
 .img1 {
   width: 25px;
   height: 25px;
-  margin-top: 10px;
 }
 
 .img2 {
   width: 25px;
   height: 25px;
-  margin-top: 10px;
 }
 
 .contacts,
@@ -224,19 +225,18 @@ ul {
 
 .contact-link {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   margin-left: 15px;
-  text-decoration-line: underline;
-  color: #565e6a;
-  opacity: 0.5;
+  text-decoration: none;
+
+  color: #ffffff;
+  /* opacity: 0.5; */
 }
 
-.tech-skills {
-  margin-bottom: 5px;
+.soft {
+  margin-bottom: 40px;
 }
-
 /* .soft-skills {
   margin-top: 45px;
   margin-bottom: 8px;
@@ -249,6 +249,7 @@ ul {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+  margin-bottom: 5px;
 }
 .soft-skills-list,
 .tech-skills-list {
